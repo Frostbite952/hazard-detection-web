@@ -34,6 +34,9 @@ Please make sure to update tests as appropriate.
 
 Please ensure you have docker installed and running.
 
+
+### Local
+
 To run the application in a container you can run the following to start the application:
 
 ```
@@ -46,6 +49,16 @@ To stop the application then:
 docker-compose down
 ```
 
+
+### Production
+
+To run the application in a container prepared for Production environments then run the following:
+
+```
+docker-compose -f docker-compose.prod.yaml up -d --build
+```
+
+**Note - Once you have built it with the first command you no longer have to use it to bring the container up, you can just revert to ``docker-compose up``
 
 ## License
 
