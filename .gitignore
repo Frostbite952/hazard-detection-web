@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#GCP Service Account key for deveunderslash
+hazard-detection-772d9d9f81f0.json
