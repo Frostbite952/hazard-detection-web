@@ -30,8 +30,21 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-# Docker (Optional)
+## Docker (Optional)
 
+Please ensure you have docker installed and running.
+
+To run the application in a container you can run the following to start the application:
+
+```
+docker-compose up --build
+```
+
+To stop the application then:
+
+```
+docker-compose down
+```
 
 
 ## License
