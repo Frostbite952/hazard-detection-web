@@ -37,7 +37,7 @@ Please ensure you have docker installed and running.
 To run the application in a container you can run the following to start the application:
 
 ```
-docker-compose up --build
+docker-compose up -d --build
 ```
 
 To stop the application then:
